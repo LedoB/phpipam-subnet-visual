@@ -12,6 +12,8 @@ Some of the block headings might be off alignment, just started writing PHP and 
 
 e.g., start and stop ranges >= 29 characters total. xxx.xxx.xxx.xxx - xxx.xxx.xxx.xxx
 
+The legend spans are currently static colorings, need to figure out how to dynamically get the colors from maybe ipTags? The only code in subnet-visual uses the IP address for reference to get the fgcolor and bgcolor based on that IP's state (2=used, 3=reserved, etc...).
+
 # Replaces:
 
 ../phpipam/app/subnets/subnet-visual.php
