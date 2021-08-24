@@ -6,6 +6,11 @@ subnet masks: /22 -> /30
 
 phpipam version: 1.4.4
 
+# Notes:
+I just tested this with the data I had available.
+Some of the block headings might be off alignment, just started writing PHP and just need to find the functions for ensuring proper spacing.
+
+e.g., start and stop ranges >= 29 characters total. xxx.xxx.xxx.xxx - xxx.xxx.xxx.xxx
 
 # Replaces:
 
